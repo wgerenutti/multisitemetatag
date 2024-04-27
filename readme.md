@@ -7,13 +7,14 @@ O módulo MultiSiteMetaTag é uma extensão do Magento 2 que adiciona Meta Tags 
 
 Você pode instalar este módulo usando o Composer. Certifique-se de que o Composer está instalado em seu sistema e execute o seguinte comando na raiz do seu projeto Magento:
 
-`composer require wgerenutti/multisitemetatag` 
+`composer config repositories.wgerenutti/multisitemetatag vcs git@github.com:wgerenutti/multisitemetatag.git` 
+ `composer require wgerenutti/multisitemetatag:^1`
 
 Após a instalação bem-sucedida, execute os comandos de atualização do Magento para habilitar o módulo:
 
-`php bin/magento module:enable Wgerenutti_MultiSiteMetaTag
-php bin/magento setup:upgrade
-php bin/magento cache:clean` 
+`php bin/magento module:enable Wgerenutti_MultiSiteMetaTag`
+`php bin/magento setup:upgrade`
+`php bin/magento cache:clean`
 
 ## Objetivos do Módulo
 
@@ -29,13 +30,15 @@ The MultiSiteMetaTag module is a Magento 2 extension that adds hreflang Meta Tag
 
 You can install this module using Composer. Make sure Composer is installed on your system and run the following command in the root of your Magento project:
 
-`composer require wgerenutti/multisitemetatag` 
+`composer config repositories.wgerenutti/multisitemetatag vcs git@github.com:wgerenutti/multisitemetatag.git` 
+ `composer require wgerenutti/multisitemetatag:^1`
 
 After successful installation, run Magento update commands to enable the module:
 
-`php bin/magento module:enable Wgerenutti_MultiSiteMetaTag
-php bin/magento setup:upgrade
-php bin/magento cache:clean` 
+`php bin/magento module:enable Wgerenutti_MultiSiteMetaTag`
+`php bin/magento setup:upgrade`
+`php bin/magento cache:clean`
+ 
 
 ## Module Objectives
 
