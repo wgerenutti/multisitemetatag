@@ -1,7 +1,7 @@
 {
     "name": "wgerenutti/multisitemetatag",
     "description": "Magento 2 module to add hreflang meta tags to CMS pages",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "license": [
         "OSL-3.0"
     ],
